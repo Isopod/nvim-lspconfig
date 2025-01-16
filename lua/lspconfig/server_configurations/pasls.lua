@@ -2,7 +2,7 @@ local util = require 'lspconfig.util'
 
 return {
   default_config = {
-    cmd = { 'pasls' },
+    cmd = { '/home/isopod/dev/pasls-genericptr/pasls' },
     filetypes = { 'pascal' },
     root_dir = util.root_pattern('*.lpi', '*.lpk', '.git'),
     single_file_support = true,
